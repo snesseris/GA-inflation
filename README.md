@@ -12,4 +12,4 @@ In this repository we provide self-contained zip files (called "pizza boxes") th
 3) The main GA code "ga_clik_tests_v1_1.py" which produces the chains etc. Here you can set a prior, various input params and other settings.
    In the same folder there are also some other helpful routines like "clik_value.py" (this runs one value of the Planck likelihood) and "clik_minimizer_unb_v1.py" which is a minimizer. Also, the script "script_v1.sh" is responsible for submitting the job to the cluster, so you may want to edit it to fit your environment.
 
-We also provide a script "submit_jobs.sh" which can automate the submission of the "pizza_boxes".
+We also provide a script "submit_jobs.sh" which can automate the submission of the "pizza_boxes" and in the folder /plots there are python notebooks for analysing and plotting the chains.
